@@ -3,15 +3,15 @@ package org.estudos;
 public class Main {
     public static void main(String[] args) {
 
-        Fila <String> minhaFila = new Fila <String> ();
+        Fila  minhaFila = new Fila ();
 
-        minhaFila.enqueue(new No("PRIMEIRO"));
-        minhaFila.enqueue(new No("SEGUNDO"));
-        minhaFila.enqueue(new No("TERCEIRO"));
-        minhaFila.enqueue(new No("QUART0"));
-        minhaFila.enqueue(new No("QUINTO"));
-        minhaFila.enqueue(new No("SEXT0"));
-        minhaFila.enqueue(new No("SETIMO"));
+        minhaFila.enqueue("PRIMEIRO");
+        minhaFila.enqueue("SEGUNDO");
+        minhaFila.enqueue("TERCEIRO");
+        minhaFila.enqueue("QUART0");
+        minhaFila.enqueue("QUINTO");
+        minhaFila.enqueue("SEXT0");
+        minhaFila.enqueue(1);
 
         System.out.println(minhaFila);
 
@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println(minhaFila);
 
-        minhaFila.enqueue(new No("ultimo"));
+        minhaFila.enqueue("ultimo");
 
         System.out.println(minhaFila);
 
