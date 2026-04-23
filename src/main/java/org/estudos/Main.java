@@ -3,7 +3,7 @@ package org.estudos;
 public class Main {
     public static void main(String[] args) {
 
-        Fila  minhaFila = new Fila ();
+        Fila <String> minhaFila = new Fila<> ();
 
         minhaFila.enqueue("PRIMEIRO");
         minhaFila.enqueue("SEGUNDO");
@@ -11,7 +11,7 @@ public class Main {
         minhaFila.enqueue("QUART0");
         minhaFila.enqueue("QUINTO");
         minhaFila.enqueue("SEXT0");
-        minhaFila.enqueue(1);
+        minhaFila.enqueue("SETIMO");
 
         System.out.println(minhaFila);
 
